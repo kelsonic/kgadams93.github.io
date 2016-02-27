@@ -1,0 +1,154 @@
+/*Navbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    border-bottom: 2px solid #000;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+h1 {
+    margin: auto;
+    position: absolute;
+    left: 47%;
+    font-size: 2em;
+}
+
+h1 a {
+    padding-top: 5px;
+}
+/*End Navbar*/
+
+/*Portfolio Button*/
+.portfolio-button {
+    font-size: 2em;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #689f38;
+    background-color: #8bc34a;
+    border-radius: 10px;
+    color: #222;
+}
+
+.button-link {
+    text-decoration: none;
+    color: #222;
+}
+
+a.button-link:hover {
+    background-color: inherit;
+    color: #000;
+}
+/*End Portfolio Button*/
+
+/*Home Header*/
+.home-header {
+  padding-top: 10em;
+  padding-bottom: 10em;
+  background-color: #4a8bc3;
+}
+
+div.home-header h2 {
+    color: #aed581;
+    font-size: 6em;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+/*End Home Header*/
+
+/*Contact Form*/
+.contact-form {
+    background-color: #eaeaea;
+}
+
+div.contact-form h3 {
+    margin: 0 0 0 0;
+    padding: 20px 0 0 0;
+    font-size: 3em;
+    color: #c3824a;
+}
+
+.well p {
+    color: #4a8bc3;
+    font-size: 2em;
+    margin: 0 0 0 0;
+    padding: 20px 0 10px 0;
+}
+
+.input-field {
+    display: block;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#input-name {
+    /*Edit this if you need to*/
+}
+
+#input-subject {
+    width: 30em;
+}
+
+#input-message {
+    height: 15em;
+    width: 30em;
+}
+
+.contact-button {
+    font-size: 1.5em;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #689f38;
+    background-color: #8bc34a;
+    border-radius: 10px;
+    color: #222;
+    margin-bottom: 2em;
+}
+/*End Contact Form*/
+
+/*Footer*/
+footer {
+    background-color: #555;
+    color: #999;
+}
+
+footer p {
+    margin: 0 0 0 0;
+    padding: 10px 0 10px 0;
+}
+/*End Footer*/
+
+/*Universal Classes*/
+.center {
+    text-align: center;
+}
+
+.well {
+    /*Edit this if you need to*/
+}
+/*End Universal Classes*/

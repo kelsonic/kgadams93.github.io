@@ -2,28 +2,26 @@
 <html>
 <head>
   <title>Kelsonic</title>
+  <link rel="stylesheet" type="text/css" href="/kgadams93.github.io/stylesheets/default.css">
 </head>
 <body>
   
     <!--2.8 Reflection is visible <a href="https://github.com/kgadams93/kgadams93.github.io/blob/master/week-2/reflections.md">here</a>.-->
     
     <!--Index Wireframe-->
-    <center>
-      Index Wireframe:<br/>
-      <img src="week-2/imgs/wireframe-index.png" />
-    </center>
+    <!--<center>-->
+    <!--  Index Wireframe:<br/>-->
+    <!--  <img src="week-2/imgs/wireframe-index.png" />-->
+    <!--</center>-->
     
     <!--Navigation-->
     <nav>
-      <div style="text-align: center;">
-        <h1><a href="#" style="text-decoration: none; color: #000;">Kelsonic</a></h1>
-        <ul style="list-style: none;">
-          <li><a href="#" style="text-decoration: none; color: #000;">Projects</a></li>
-          <li><a href="#" style="text-decoration: none; color: #000;">About</a></li>
-          <li><a href="/blog/index.html" style="text-decoration: none; color: #000;">Blog</a></li>
-        </ul>
-        <hr/>
-      </div>
+      <ul>
+        <li><a href="/kgadams93.github.io/blog/index.html">Blog</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Projects</a></li>
+        <li><h1><a href="/">Kelsonic</a></h1></li>
+      </ul>
     </nav>
     
     <main>
@@ -32,32 +30,31 @@
       <div class="home-header">
         <center>
           <h2>Kelsonic</h2>
-          <p>Junior Web Developer</p>
-          <button type="button">Portfolio</button>
+          <p>- Junior Web Developer -</p>
+          <button type="button" class="portfolio-button"><a href="/" class="button-link">Portfolio</a></button>
         </center>
       </div>
-      <br/><br/>
-      <hr/>
       
       <!--Contact Me Form-->
-      <center>
-        <h3>Contact Me</h3>
-        <div class="well">
-          <!--Contact Name-->
-          <p>Your Name</p>
-          <input type="text" name="fullname">
-          <!--Contact Subject-->
-          <p>Subject</p>
-          <input type="text" name="subject">
-          <!--Contact Message-->
-          <p>Message</p>
-          <input type="text" name="firstname">
-          <br/>
-          <!--Submit Button-->
-          <button type="submit">Submit</button>
-        </div>
-        
-      </center>
+      <div class="contact-form">
+        <center>
+          <h3>Contact Me</h3>
+          <div class="well">
+            <!--Contact Name-->
+            <p>Your Name</p>
+            <input type="text" name="fullname" class="input-field" id="input-name">
+            <!--Contact Subject-->
+            <p>Subject</p>
+            <input type="text" name="subject" class="input-field" id="input-subject">
+            <!--Contact Message-->
+            <p>Message</p>
+            <input type="text" name="firstname" class="input-field" id="input-message">
+            <br/>
+            <!--Submit Button-->
+            <button type="submit" class="contact-button">Send</button>
+          </div>
+        </center>
+      </div>
       
     </main>
     
