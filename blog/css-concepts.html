@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kelsonic</title>
+  <link rel="stylesheet" type="text/css" href="/kgadams93.github.io/stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="/kgadams93.github.io/stylesheets/blog.css">
+</head>
+<body>
+  
+  <center>
+    
+    <!--Navigation-->
+    <nav>
+      <ul>
+        <li><a href="/kgadams93.github.io/blog/index.html">Blog</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Projects</a></li>
+        <li><h1><a href="/">Kelsonic</a></h1></li>
+      </ul>
+    </nav>
+    
+    <main>
+      <div class="blog-header">
+        <h2 class="blog-title">Positioning: Revealed!</h2>
+        <h3 class="subtitle">
+          The simple differences to relative, absolute, fixed, and static positioning.
+        </h3>
+        <p class="date"><small>Posted Feb 27, 2016.</small></p>
+      </div>
+      
+      <div class="blog-content-area">
+        <p class="blog-content">
+          One of the most confusing properties of CSS for beginners is <code>position:</code>.
+          
+          For most it may seem intuitive at first, but there are many values for it, 
+          which can make it difficult to remember.
+        </p>
+        
+        <p class="blog-content">
+          Let's just put it out there - positioning in CSS sucks to work with when 
+          starting out.
+          
+          And it also happens to be important since it will help create the layout 
+          your envisoning for your website.
+          
+          Since positioning seems to be a combination of confusing and useful, let's 
+          try to make it simpler to understand.
+        </p>
+        
+        <h4>The Key Position</h4>
+        
+        <p class="blog-content">
+          The definition from <a href="http://www.w3schools.com/css/css_positioning.asp" alt="w3schools">w3schools</a> 
+          for position is this:
+        </p>
+        
+        <p class="blog-content">
+          The <code>position</code> property specifies the type of positioning 
+          method used for an element (static, relative, fixed or absolute).
+        </p>
+        
+        <p class="blog-content">
+          While that pretty much states the obvious, what might not be so obvious is 
+          that it actually creates an algorithm for the element that you are targeting, 
+          which determines its position.
+          
+          This is pretty cool, so let's go more in-depth into the types of values this 
+          property takes to understand how it works under-the-hood.
+        </p>
+        
+        <h4>The Static Value</h4>
+        
+        <p class="blog-content">
+          Static is the default value for the position property. 
+          
+          An element with <code>position: static;</code> is not positioned in any special way. 
+          
+          This is great news for us, because it means that the element will simply 
+          follow the <a href="http://www.w3schools.com/css/css_boxmodel.asp">box model</a>.
+          
+          In fact, an element with <code>position: static;</code> is said to not 
+          be positioned at all.
+        </p>
+        
+        <h4>The Absolute Value</h4>
+        
+        <p class="blog-content">
+          The absolute value is perhaps the most confusing value for the position 
+          property, so let's get it out of the way.
+          
+          An absolutely positioned element will either use its parent element or 
+          the HTML body to position itself.
+          
+          (Imagine you are absolutely positioning a <code>h2</code> tag inside of a 
+          <code>div</code>. 
+          
+          The <code>h2</code> position will be relative to the 
+          <code>div</code> instead of the entire HTML <code>body</code> tag.)
+        </p>
+        
+        <p class="blog-content">
+          In order to manipulate an absolutely positioned element, it's actually 
+          quite easy.
+          
+          The most useful properties to use with <code>position: absolute;</code> 
+          is <code>top:</code>, <code>bottom:</code>, <code>left:</code>, 
+          <code>right:</code>, <code>width:</code>, and <code>height:</code>.
+        </p>
+        
+        <h4>The Relative Value</h4>
+        
+        <p class="blog-content">
+          The relative value is almost the same as static, except that you can 
+          manipulate its position.
+          
+          As with <code>position: absolute;</code>, you can use the above properties 
+          to change a relative positioned element.
+          
+          So if you want to manipulate a static positioned element, make sure you 
+          change its position to relative.
+        </p>
+        
+        <h4>The Fixed Value</h4>
+        
+        <p class="blog-content">
+          If an element has <code>position: fixed;</code> it means that the element 
+          will be positioned with respect to your device's viewport.
+          
+          Even if you scroll, the element will stay in the same location on your 
+          screen.
+          
+          And as with absolute and relative positioning, you can use the above 
+          properties to manipulate the element's position.
+        </p>
+        
+      </div>
+    </main>
+    
+    <footer>
+      <hr/>
+      <p><small>Copyright &copy; 2016. Made by Kelson Adams</small></p>
+    </footer>
+    
+  </center>
+  
+</body>
+</html>

@@ -37,6 +37,11 @@
     padding: 1em 1em 1em 1em;
     margin: 10px 0px 10px 0px;
 }
+
+.h4 {
+    text-align: center;
+    color: #306491;
+}
 /*End Blog Show Page*/
 
 /*Blog Index*/
