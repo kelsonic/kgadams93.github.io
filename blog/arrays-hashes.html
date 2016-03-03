@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kelsonic</title>
+  <link rel="stylesheet" type="text/css" href="/kgadams93.github.io/stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="/kgadams93.github.io/stylesheets/blog.css">
+</head>
+<body>
+  
+  <center>
+    
+    <!--Navigation-->
+    <nav>
+      <ul>
+        <li><a href="/kgadams93.github.io/blog/index.html">Blog</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Projects</a></li>
+        <li><h1><a href="/">Kelsonic</a></h1></li>
+      </ul>
+    </nav>
+    
+    <main>
+      <div class="blog-header">
+        <!--Title-->
+        <h2 class="blog-title">CSS Positioning: Revealed!</h2>
+        <!--Subtitle-->
+        <h3 class="subtitle">
+          The simple differences to relative, absolute, fixed, and static positioning.
+        </h3>
+        <p class="date"><small>Posted Feb 27, 2016.</small></p>
+      </div>
+      
+      <div class="blog-content-area">
+        <!--Content-->
+        <p class="blog-content">
+          Many people (myself included) had trouble distinguishing the difference 
+          between arrays and hashes when first starting to program.
+          
+          So let's talk a bit about them both.
+        </p>
+        
+        <p class="blog-content">
+          If you haven't already checked out <a href="http://ruby-doc.org/">ruby-doc.org</a>, 
+          now would be a good time. 
+          
+          It's incredible how much you can learn by reading their documentation on Ruby,
+          and they give great definitions of both <a href="http://ruby-doc.org/core-2.2.0/Array.html">arrays</a> 
+          and <a href="http://ruby-doc.org/core-2.3.0/Hash.html">hashes</a>.
+        </p>
+        
+        <h4>Arrays</h4>
+        
+        <p class="blog-content">
+          "Arrays are ordered, integer-indexed collections of any object." While that 
+          may seem like a mouth-full, the concept is quite simple.
+          
+          For example, here is an array:
+          
+          <code>new_array = [1, "hello", ["this is an element in a subarray", 5], 3]</code>
+        </p>
+        
+        <p class="blog-content">
+          An array contains either numbers, strings, or even other arrays (as shown above.) 
+          
+          They can be very useful if you need to store or retrieve a large amount of data.
+        </p>
+        
+        <h4>Hashes</h4>
+        
+        <p class="blog-content">
+          "A Hash is a dictionary-like collection of unique keys and their values." 
+          Essentially, a hash contains a bunch of key-value pairs and, while it is 
+          similar to an array, it has some notable differences.
+        </p>
+        
+        <p class="blog-content">
+          First, indexing is done via arbitrary keys of any object type. Let's take 
+          a quick look at indexing for arrays. For example, if this is your array: 
+          
+          <code>new_array = ["hello", "yes", "no"]</code> 
+          
+          then <code>new_array(0) = "hello"</code>, <code>new_array(1) = "yes"</code>, 
+          and so forth.
+        </p>
+        
+        <p class="blog-content">
+          However, hashes are a bit different. Let's say this is your hash:
+          
+          <code>greetings = { :friendly => "Hello, beautiful!", :angry => "Hello, not beautiful!" }</code>
+          
+          Hash indexing is done like this: 
+          
+          <code>greetings[friendly] = "Hello, beautiful!"</code>
+        </p>
+        
+        <h4>So when should you use them?</h4>
+        
+        <p class="blog-content">
+          Both hashes and arrays store data and allow you to retrieve that data. 
+          
+          However, the way in which you can retrieve and store that data is different for 
+          both arrays and hashes.
+        </p>
+        
+        <p class="blog-content">
+          Arrays have fixed keys, as seen with their numerical indexing, whereas 
+          hash keys are much easier to customize.
+          
+          If you still don't quite get it, check out this <a href="https://teamtreehouse.com/community/when-do-you-use-an-array-versus-a-hash-in-ruby">great answer</a>
+          for when you should use either one.
+        </p>
+        
+        <!--End Content-->
+        
+      </div>
+    </main>
+    
+    <footer>
+      <hr/>
+      <p><small>Copyright &copy; 2016. Made by Kelson Adams</small></p>
+    </footer>
+    
+  </center>
+  
+</body>
+</html>
