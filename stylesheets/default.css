@@ -180,4 +180,10 @@ footer p {
 .well {
     /*Edit this if you need to*/
 }
+
+code {
+    background-color: #bfbfbf;
+    font-size: 0.75em;
+    padding: .2em;
+}
 /*End Universal Classes*/
