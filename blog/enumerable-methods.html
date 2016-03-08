@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kelsonic</title>
+  <link rel="stylesheet" type="text/css" href="/kgadams93.github.io/stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="/kgadams93.github.io/stylesheets/blog.css">
+</head>
+<body>
+  
+  <center>
+    
+    <!--Navigation-->
+    <nav>
+      <ul>
+        <li><a href="/kgadams93.github.io/blog/index.html">Blog</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Projects</a></li>
+        <li><h1><a href="/">Kelsonic</a></h1></li>
+      </ul>
+    </nav>
+    
+    <main>
+      <div class="blog-header">
+        <!--Title-->
+        <h2 class="blog-title">The Enumerable Map Method</h2>
+        <!--Subtitle-->
+        <h3 class="subtitle">
+          Iterate, Change, and Save. It's that easy.
+        </h3>
+        <p class="date"><small>Posted March 8, 2016.</small></p>
+      </div>
+      
+      <div class="blog-content-area">
+        <!--Content-->
+        <h4>Iteration</h4>
+        
+        <p class="blog-content">
+          The <code>Enumerate</code> class in Ruby is incredibly helpful. Chances are 
+          you may be familiar with the <code>.each</code> Enumerate method to 
+          iterate through, say, an array. You may even want to make changes to the array 
+          you are iterating over. If that's the case, then <code>.map</code> is about 
+          to become your new best friend.
+        </p>
+        
+        <h4>So what is Enumerate#map?</h4>
+        
+        <p class="blog-content">
+          The <code>.map</code> method takes an enumerable object and a block, and 
+          runs the block for each element, outputting each returned value from the block.
+        </p>
+        
+        <p class="blog-content">
+          It's probably just easiest to give you an example:
+        </p>
+        
+        <p class="blog-content">
+          <code>
+            arry = [5, 3, 2, 4]
+            puts arry.map { |num| num ** 2 } # => [25, 9, 4, 16]
+          </code>
+        </p>
+        
+        <p class="blog-content">
+          The <code>.map</code> method will go through each element (or <code>num</code> 
+          in this case) in the array and square it.
+        </p>
+        
+        <h4>Don't forget about me!</h4>
+        
+        <p class="blog-content">
+          It's important to note that the new array we just created above will be forgotten 
+          unless we use the <code>.map!</code> method, which reassigns the new array back 
+          to <code>arry</code>.
+        </p>
+        
+        <p class="blog-content">
+          And that's about it! If you are curious about more Enumerate methods, definitely 
+          check out the <a href="http://ruby-doc.org/core-2.3.0/Enumerable.html">Ruby docs here</a>.
+        </p>
+        
+        <!--End Content-->
+        
+      </div>
+    </main>
+    
+    <footer>
+      <div class="footer-contact">
+        <!--Facebook-->
+        <a href="https://www.facebook.com/kelsonic"><i class="fa fa-facebook"></i></a>
+        <!--LinkedIn-->
+        <a href="https://nl.linkedin.com/in/kelsonic"><i class="fa fa-linkedin"></i></a>
+        <!--GitHub-->
+        <a href="https://github.com/kgadams93"><i class="fa fa-github"></i></a>
+        <!--Email-->
+        <p>kgadams93@gmail.com</p>
+      </div>
+      
+      <center><p><small>Copyright &copy; 2016. Made by Kelson Adams.</small></p></center>
+    </footer>
+    
+  </center>
+  
+</body>
+</html>
